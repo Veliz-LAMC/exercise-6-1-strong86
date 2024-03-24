@@ -7,13 +7,44 @@ html {
 	background-color: white;
 }
 body {
-	font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 100%;
-    width: 600px;
+    width: 800px;
     margin: 0 auto;
     border: 3px solid #931420;
     background-color: #fffded;
 }
+
+/* Set section width and float right */
+section {
+    width: 525px;
+    float: right;
+    padding: 0 20px 20px 20px;
+}
+
+/* Set aside width and float right */
+aside {
+    width: 215px;
+    float: right;
+    padding: 0 20px 20px 20px;
+}
+
+/* Clear floating in footer */
+footer {
+    clear: both;
+
+/* Set padding for aside */
+aside {
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+/* Set padding for section */
+section {
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
 a:focus, a:hover {
 	font-style: italic;
 }
@@ -31,9 +62,17 @@ header {
 	    30deg, #f6bb73 0%, #f6bb73 30%, white 50%, #f6bb73 80%, #f6bb73 100%);
 }
 header h2 {
-	font-size: 175%;
-	color: #800000;
+    color: #333;
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
 }
+
+aside h2 {
+    color: #333;
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+}
+	
 header h3 {
 	font-size: 130%;
 	font-style: italic;
@@ -50,11 +89,11 @@ main {
 	clear: left;
 }
 main {
-	padding: 0 30px;
+	
 }
 main h1 {
-	font-size: 150%;
-	padding: .3em 0;
+    font-size: 150%;
+    padding: .3em 0;
     border-top: 3px solid #931420;
     border-bottom: 3px solid #931420;
 }
